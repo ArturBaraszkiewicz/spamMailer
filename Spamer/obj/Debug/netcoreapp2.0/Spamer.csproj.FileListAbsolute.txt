@@ -1,0 +1,13 @@
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Spamer\bin\Debug\netcoreapp2.0\Spamer.deps.json
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Spamer\bin\Debug\netcoreapp2.0\Spamer.runtimeconfig.json
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Spamer\bin\Debug\netcoreapp2.0\Spamer.runtimeconfig.dev.json
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Spamer\bin\Debug\netcoreapp2.0\Spamer.dll
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Spamer\bin\Debug\netcoreapp2.0\Spamer.pdb
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Spamer\bin\Debug\netcoreapp2.0\CsvReader.dll
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Spamer\bin\Debug\netcoreapp2.0\CsvReader.pdb
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Spamer\obj\Debug\netcoreapp2.0\Spamer.csprojResolveAssemblyReference.cache
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Spamer\obj\Debug\netcoreapp2.0\Spamer.csproj.CoreCompileInputs.cache
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Spamer\obj\Debug\netcoreapp2.0\Spamer.AssemblyInfoInputs.cache
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Spamer\obj\Debug\netcoreapp2.0\Spamer.AssemblyInfo.cs
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Spamer\obj\Debug\netcoreapp2.0\Spamer.dll
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Spamer\obj\Debug\netcoreapp2.0\Spamer.pdb
