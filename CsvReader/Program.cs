@@ -1,6 +1,6 @@
 ﻿using System;
-using CsvHelper;
 using System.IO;
+using CsvHelper;
 using System.Linq;
 using CsvReader.Model;
 using CsvReader.Settings;
@@ -10,7 +10,7 @@ namespace CsvReader
 {
     class Program
     {
-        private static int _currentIndex = 0;
+        private int _currentIndex = 0;
 
         public List<MailModel> Read() {
             List<MailModel> users;
@@ -18,7 +18,7 @@ namespace CsvReader
                 //TODO: change namespace
                 var reader = new CsvHelper.CsvReader(streamReader);
                 reader.Configuration.Delimiter = Config.Delimiter;
-                users = reader.GetRecord<MailModel>().Skip(_currentIndex).Take(Config.Count).ToList();
+                users = reader.GetRecords<MailModel>().Skip(_currentIndex).Take(Config.Count).ToList();
                 _currentIndex += Config.Count;
             }
             return null;
