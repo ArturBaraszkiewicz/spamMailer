@@ -5,6 +5,5 @@ namespace CsvReader.Interface
 {
     interface IEmailReader
     {
-        List<MailModel> Read();
     }
 }

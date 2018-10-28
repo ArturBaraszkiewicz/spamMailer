@@ -1,10 +1,10 @@
 ﻿using System;
-using System.IO;
-using CsvReader.Model;
-using System.Linq;
-using System.Collections.Generic;
-using CsvReader.Settings;
 using CsvHelper;
+using System.IO;
+using System.Linq;
+using CsvReader.Model;
+using CsvReader.Settings;
+using System.Collections.Generic;
 
 namespace CsvReader
 {
@@ -20,7 +20,6 @@ namespace CsvReader
                 reader.Configuration.Delimiter = Config.Delimiter;
                 users = reader.GetRecord<MailModel>().Skip(_currentIndex).Take(Config.Count).ToList();
                 _currentIndex += Config.Count;
-
             }
             return null;
         }
