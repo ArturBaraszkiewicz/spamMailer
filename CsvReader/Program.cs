@@ -21,12 +21,7 @@ namespace CsvReader
                 users = reader.GetRecords<MailModel>().Skip(_currentIndex).Take(Config.Count).ToList();
                 _currentIndex += Config.Count;
             }
-            return null;
-        }
-
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+            return users;
         }
     }
 }
