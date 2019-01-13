@@ -1,20 +1,21 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
-using CsvHelper;
 using System.Linq;
 using CsvReader.Model;
 using CsvReader.Settings;
-using System.Collections.Generic;
 
-namespace CsvReader
+namespace CsvReader.Loader
 {
-    class Program
+    class MailReader
     {
-        private int _currentIndex = 0;
+        private static int _currentIndex = 0;
 
-        public List<MailModel> Read() {
+        public List<MailModel> Read()
+        {
             List<MailModel> users;
-            using (var streamReader = File.OpenText(Config.Path)) {
+            using (var streamReader = File.OpenText(Config.Path))
+            {
                 //TODO: change namespace
                 var reader = new CsvHelper.CsvReader(streamReader);
                 reader.Configuration.Delimiter = Config.Delimiter;

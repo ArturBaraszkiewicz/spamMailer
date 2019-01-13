@@ -8,6 +8,5 @@
         public const string Path = @"";
         //delimiter
         public const string Delimiter = ";";
-
     }
 }

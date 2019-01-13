@@ -10,5 +10,8 @@ namespace CsvReader.Model
         public string Head { get; set; }
         public string Content { get; set; }
 
+        //public string mailToString() {
+        //    return Address + ", " + Head + ", " + Content;
+        //}
     }
 }
