@@ -1,0 +1,8 @@
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Logger\bin\Debug\netcoreapp2.0\Logger.deps.json
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Logger\bin\Debug\netcoreapp2.0\Logger.runtimeconfig.json
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Logger\bin\Debug\netcoreapp2.0\Logger.runtimeconfig.dev.json
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Logger\bin\Debug\netcoreapp2.0\Logger.dll
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Logger\obj\Debug\netcoreapp2.0\Logger.csprojResolveAssemblyReference.cache
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Logger\obj\Debug\netcoreapp2.0\Logger.csproj.CoreCompileInputs.cache
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Logger\obj\Debug\netcoreapp2.0\Logger.AssemblyInfoInputs.cache
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\Logger\obj\Debug\netcoreapp2.0\Logger.AssemblyInfo.cs

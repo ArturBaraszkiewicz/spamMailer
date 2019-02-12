@@ -1,12 +1,27 @@
 ﻿using System;
+using Logger;
+using CsvReader.Model;
+using EmailSender.Model;
+using EmailSender.Interface;
+
 
 namespace EmailSender
 {
-    class Program
+    public class EmailSender : IEmailSender
     {
-        static void Main(string[] args)
+        public SendingResult SendEmailAsync(MailModel mailData)
         {
-            Console.WriteLine("Hello World!");
+            try
+            {
+                Logger.Logger.LoggEmailData(mailData);
+                Logger.Logger.LoggMessage("The email Email has been sent successfully");
+            }
+            catch (Exception ep)
+            {
+                Logger.Logger.LoggMessage("Ups");
+                return SendingResult.Fail;
+            }
+            return SendingResult.Success;
         }
     }
 }
