@@ -1,5 +1,6 @@
 ﻿using System;
-using CsvReader;
+using Topshelf;
+using CsvReader.Model;
 
 namespace Spamer
 {
@@ -7,7 +8,19 @@ namespace Spamer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Start");
+            HostFactory.Run(x =>
+            {
+                x.SetServiceName("Spamer");
+                x.SetDescription("Service for sending emails");
+
+                x.Service<IMailModel>( service =>
+                {
+                        
+                });
+
+            });
+            Console.WriteLine("End");
         }
     }
 }
