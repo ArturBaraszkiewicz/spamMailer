@@ -1,9 +1,10 @@
 ﻿using System;
-using Logger;
+using Serilog;
+using Logger.Settings;
 using CsvReader.Model;
 using EmailSender.Model;
 using EmailSender.Interface;
-
+using Serilog.Events;
 
 namespace EmailSender
 {
@@ -11,16 +12,23 @@ namespace EmailSender
     {
         public SendingResult SendEmailAsync(MailModel mailData)
         {
-            try
+            using (var log = new LoggerConfiguration()
+                .WriteTo.Console()
+                .WriteTo.File(Logger.Settings.Config.FilePath)
+                .CreateLogger())
             {
-                Logger.Logger.LoggEmailData(mailData);
-                Logger.Logger.LoggMessage("The email Email has been sent successfully");
+                try {
+                    log.Information("Message was successfully sent!");
+                    log.Information(mailData.ToString());
+
+                }
+                catch (Exception ep) {
+                    log.Information(mailData.ToString());
+                    log.Warning("Ups!");
+                    return SendingResult.Fail;
+                }
             }
-            catch (Exception ep)
-            {
-                Logger.Logger.LoggMessage("Ups");
-                return SendingResult.Fail;
-            }
+
             return SendingResult.Success;
         }
     }

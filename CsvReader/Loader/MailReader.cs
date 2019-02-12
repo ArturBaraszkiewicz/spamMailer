@@ -7,7 +7,7 @@ using CsvReader.Settings;
 
 namespace CsvReader.Loader
 {
-    class MailReader
+    public class MailReader
     {
         private static int _currentIndex = 0;
 
