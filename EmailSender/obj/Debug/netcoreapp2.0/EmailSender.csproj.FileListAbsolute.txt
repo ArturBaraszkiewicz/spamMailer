@@ -1,0 +1,8 @@
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\EmailSender\bin\Debug\netcoreapp2.0\EmailSender.deps.json
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\EmailSender\bin\Debug\netcoreapp2.0\EmailSender.runtimeconfig.json
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\EmailSender\bin\Debug\netcoreapp2.0\EmailSender.runtimeconfig.dev.json
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\EmailSender\bin\Debug\netcoreapp2.0\EmailSender.dll
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\EmailSender\obj\Debug\netcoreapp2.0\EmailSender.csprojResolveAssemblyReference.cache
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\EmailSender\obj\Debug\netcoreapp2.0\EmailSender.csproj.CoreCompileInputs.cache
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\EmailSender\obj\Debug\netcoreapp2.0\EmailSender.AssemblyInfoInputs.cache
+C:\Users\abaraszkiewicz\Documents\Visual Studio 2017\Projects\Spamer\spamMailer\EmailSender\obj\Debug\netcoreapp2.0\EmailSender.AssemblyInfo.cs
